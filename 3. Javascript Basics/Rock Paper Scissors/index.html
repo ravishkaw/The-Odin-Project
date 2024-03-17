@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RPS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="box">
+      <h1>Choose your choice</h1>
+      <button onclick="playGame('Rock')">Rock</button>
+      <button onclick="playGame('Paper')">Paper</button>
+      <button onclick="playGame('Scissor')">Scissor</button>
+      <br /><br />
+      <h3 id="result">Player : 0 | Computer : 0 | Tie : 0</h3>
+      <button onclick="reset()">Reset Stats</button>
+      <br />
+      <br />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
